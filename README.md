@@ -32,9 +32,32 @@ http://localhost:8080/graphiql
   
  - Mutation:
   
-  deleteLocation: 
+  -- deleteLocation: 
   ```
   mutation {
     deleteLocation(id: ID!): Location!
   }
   ```
+  -- updateLocationName:
+  ```
+  mutation {
+   updateLocationName(newName: String!, id: ID!){
+    id
+    name
+    address
+   }
+ }
+  ```
+  
+ -- newLocation:
+ ```
+  mutation {
+   newLocation(
+    name: String!,
+    address: String!) {
+   	id
+    name
+    address
+   }
+ }
+ ```
