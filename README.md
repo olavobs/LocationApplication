@@ -10,12 +10,12 @@ Location Application using Springboot and h2 database with JPA based on Java Dev
 
 ```
 localhost:8080/h2
-
+```
 
 ### Access graphiql
 ```
 http://localhost:8080/graphiql
-
+```
 
 
 ### Endpoints:
@@ -26,7 +26,7 @@ http://localhost:8080/graphiql
     id
     address
     name
-  }
+   }
 }
 ```
   
